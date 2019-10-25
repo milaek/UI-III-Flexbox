@@ -74,7 +74,8 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+    align-items: center;
+    margin-top: 3%;
 }
 
 
@@ -101,6 +102,15 @@ footer {
 	margin-bottom: 5%;
 }
 
+ul {
+    list-style: square inside;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-top: 3%;
+}
+
 p {
 	font-size: 1.2rem;
 }
@@ -124,7 +134,15 @@ hr {
 
 
 /* Classes */
+.services-header-img {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
+.Table {
+
+}
 /* IDs */
 
 /* Tags + Tags */
