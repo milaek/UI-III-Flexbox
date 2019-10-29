@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Tags */
 
 body {
@@ -147,14 +148,13 @@ hr {
 }
 
 .Table {
+    display: flex;
     flex-wrap: wrap;
-    
 }
 
 .TableBox {
     width: 46%;
-    height: 20rem;
-    background: #f2f2f2;
+    background:#f2f2f2;
     border: solid black 1px;
     box-sizing: border-box;
     padding: 3%;
@@ -162,6 +162,7 @@ hr {
     margin-left: 0%;
 
 }
+
 
 .TopLine {
     border-top: 1px solid black;
@@ -178,6 +179,7 @@ hr {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1rem;
     margin-top: 5%;
+    margin-bottom: 5%;
 
 }
 
@@ -209,4 +211,14 @@ nav a {
 /* Classes/IDs +  Classes/IDs */
 .TableBox.TableTop {
     margin-top: 0%;
+}
+
+@media (max-width:600px) {
+    nav {
+        flex-flow: column wrap;
+    }
+    .TableBox {
+        margin-right: 0%;
+        width: 100%;
+    }
 }
